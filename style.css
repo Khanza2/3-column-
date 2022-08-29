@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #faeffa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 75%;
+    height: 600px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: auto;
+
+}
+.firstcolumn{
+    width: 25%;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+h3{
+    color: hsl(0, 0%, 95%);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+
+}
+button{
+    color: black;
+    margin-left: 10%;
+    margin-top: 60px;
+    font-size: 15px;
+    padding: 15px 15px;
+    width: 60%;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+
+}
+h3{
+    font-size: 30px;
+    margin-top: 10%;
+
+}
+
+.btn1:hover{
+    color: hsl(31, 77%, 52%) ;
+}
+
+.btn2:hover{
+  color: hsl(184, 100%, 22%) ;
+
+}
+.btn3:hover:hover{
+    color: hsl(179, 100%, 13%) ;
+}
+
+
+
+
+
+
+img{
+    margin-top:30px;
+    margin-left: 10%;
+}
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10%;
+    font-family: 'Lexend Deca', sans-serif;
+
+
+
+
+}
+
+.secondcolumn{
+    width: 25%;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%) ;
+    /* border-radius: 10px; */
+
+}
+.thirdcolumn{
+    width: 25%;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+@media screen  and (max-width:575px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+        /* height: 200px; */
+    }
+    .firstcolumn{
+        
+        width: 100%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        border-radius: none;
+    }
+    .secondcolumn{
+        
+        width: 100%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        border-radius: none;
+    }.thirdcolumn{
+        
+        width: 100%;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        border-radius: none;
+    }
+    .btn1{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .btn2{
+        margin-left: 40px;
+        margin-bottom: 20px;}
+
+    .btn3{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    
+}
